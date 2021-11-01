@@ -31,6 +31,44 @@
     </ul>
 </nav>
 </header>
+<!--hero section-->
+<section>
+    <div>
+        <h3>Get Started Today</h3>
+        <p>Fill out this form and one of our trainers will schedule a consult.</p>
+        <!--Add form element-->
+        <form>
+            <!--Add name fields-->
+            <label for="name">Enter full name:</label>
+            <input type="text" placeholder="Your Name" name="name" id="name" />
+            <!--Add email fields-->
+            <label for="email">Enter email address:</label>
+            <input type="email" placeholder="Email Address" name="email" id="email"/>
+            <!--Add phone Fields-->
+            <lable for="phone">Enter a telephone number:</lable>
+            <input type="tel" placeholder= "Phone Number" name="phone" id="phone"/>
+            <!--Radio button section-->
+            <p>
+                Have you worked out with a trainer before?
+                <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                <lable for="trainer-yes">Yes</lable>
+                <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                <lable for="trainer-no">No</lable> 
+            </p>
+            <!--acknowledge form-->
+            <p>
+                <lable for="checkbox">
+                I acknowledge that I am at least 18 years of age.
+                </lable>
+                <input type="checkbox" name="age-confirm" id="checkbox">
+            </p>
+            <!--submit button-->
+            <button type="submit">
+                Get running!
+            </button>
+        </form>
+    </div>
+</section>
 <!-- hero/jumbotron-->
 <section>
 </section>
@@ -53,6 +91,10 @@
 <!--footer-->
 <footer>
     <h2>❤️ Made with love by Run Buddy.</h2>
+    <div>
+        <a href="#">Read Our Privacy Policy</a><br />
+        &copy; 2019 Run Buddy, Inc.
+    </div>
 </footer> 
 </body>
 </html>
