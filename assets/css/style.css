@@ -58,7 +58,6 @@ footer a {
 }
 section {
     padding: 60px;
-   
 }
 /*Hero Style*/
 .hero {
@@ -71,11 +70,37 @@ section {
 .hero-form {
     color: #024e76;
     background-color: #fce138;
-    padding : 20 px;
+    padding : 20px;
     width: 500px;
     border: solid 3px #024e76;
     position:absolute;
     bottom: 120px;
     right: 140px;
-
 } 
+/*adjusting the form*/
+.hero-form h3 {
+    font-size:20px;
+    margin:0;
+}
+.hero-form p{
+    margin: 5px 0 15px 0;
+}
+.form-input {
+    border: 1px solid #024e76;
+    display:block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom:15px;
+}
+.hero-form lable {
+    margin: 0 5px;
+}
+.hero-form button{
+    color: #fce138;
+    background-color:#024e76;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+}
