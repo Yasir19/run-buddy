@@ -54,7 +54,7 @@ footer div {
     text-align:right;
 }
 footer a {
-    color: #024e76
+    color: #024e76;
 }
 section {
     padding: 60px;
@@ -116,10 +116,10 @@ text-align: center;
     display: inline-block;
 }
 .primary-border {
-border-color:#fce138
+border-color:#fce138;
 }
 .secondary-border {
-    border-color:#39a6b2
+    border-color:#39a6b2;
 }
 .intro p {
     line-height:1.7;
@@ -199,13 +199,9 @@ margin:10px 0;
     margin-bottom:35px;
     padding:0 100px 20px 100px;
     border-bottom: 3px solid;
-    display:inline-block
+    display:inline-block;
+}
 
-}
-.contact-info iframe{
-    width="400" 
-    height="400" 
-}
 .contact-info div{
 width:410px;
 display:inline-block;
@@ -215,7 +211,7 @@ margin:30px 0 0 60px;
 color: white;
 }
 .contact-info h3{
-    color:#fce138
+    color:#fce138;
     font-size:32px;
 }
 .contact-info p, .contact-info address{
@@ -225,5 +221,5 @@ font-size: 20px;
 font-style: normal;
 }
 .contact-info a{
-    color:#fce138
+    color:#fce138;
 }
