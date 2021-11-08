@@ -8,7 +8,7 @@
     color:#fce138;
     display:inline-block;
     border-bottom: 4px solid #fce138;
-    padding: 0 80px 14px 80px;
+    padding: 0 80px 15px 80px;
     font-weight:normal;
     font-size:46px;
     font-style:italic;
@@ -20,14 +20,14 @@
 }
 .secondary-content h3{
     font-size:25px;
-    margin: 20px 0 20px 0;
+    margin: 20px 4;
 }
 .secondary-content p{
     font-size: 16px;
     line-height: 1.5;
-    margin: 20px 0 20px 0;
+    margin: 20px 4px;
 }
 .secondary-content ul li{
     color: #39a6b2;
-    margin: 10px 0 10px 0;
+    margin: 10px 4px;
 }
